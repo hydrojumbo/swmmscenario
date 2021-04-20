@@ -1,0 +1,16 @@
+Package: swmmscenario
+Title: Visualize Alternative Design Scenarios From Multiple EPA SWMM Output Files
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Alex",
+           family = "Bedig",
+           role = c("aut", "cre"),
+           email = "alex.bedig@tufts.edu",
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: Plot storage node depths and link capacities and flow rates from common infrastructure elements across many SWMM '.out' output files, each of which represents an alternative design scenario.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Imports: rlang, dplyr, ggplot2, gridExtra, lubridate, reshape2, magrittr, tibble, swmmr
