@@ -8,7 +8,7 @@ Install from Github:
 
 ```
 library(devtools)
-install_github("hydrojumbo/swmmscenario")
+install_github(ref="main", "hydrojumbo/swmmscenario")
 ```
 
 Once this has run, you can load the package into your R scripts and use it with:
